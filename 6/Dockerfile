@@ -34,3 +34,8 @@ RUN yum -y update && yum install -y \
     bzr \
     mercurial \
     && yum clean all
+
+RUN yum -y update && yum install -y \
+    tar \
+    && yum clean all
+    
