@@ -23,11 +23,10 @@ RUN yum -y update && yum -y groupinstall 'Development Tools' && yum -y install \
     libxml2-devel \
     libxslt-devel \
     zlib-devel \
-    libyaml-devel \
     && yum clean all
 
-RUN rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-6 \
-    && rpm -Kih http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm \
+RUN rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-5 \
+    && rpm -Kih http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm \
     && yum -y install libyaml-devel \
     && yum clean all
 
