@@ -26,7 +26,7 @@ RUN yum -y update && yum -y groupinstall 'Development Tools' && yum -y install \
     && yum clean all
 
 RUN rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-5 \
-    && rpm -Kih http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm \
+    && rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm \
     && yum -y install libyaml-devel \
     && yum clean all
 
