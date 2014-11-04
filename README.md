@@ -15,6 +15,7 @@ This stack is designed to be the foundation of a language-stack image for centos
 
 - [ruby](https://github.com/tcnksm/dockerfile-centos-ruby)
 - [rails](https://github.com/tcnksm/dockerfile-centos-rails)
+- [perl](https://github.com/tcnksm/dockerfile-centos-perl)
 - [node](https://github.com/tcnksm/dockerfile-centos-node)
 - [java](https://github.com/tcnksm/dockerfile-centos-java)
 
