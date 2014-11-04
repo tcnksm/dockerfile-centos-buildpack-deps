@@ -9,7 +9,14 @@ Dockerfile for CentOS buildpack-deps.
 
 This Dockerfile is ported from debian's [buildpack-deps](https://github.com/docker-library/buildpack-deps) to [CentOS](http://www.centos.org/). `buildpack-deps` is similar to [Heroku's stack images](https://github.com/heroku/stack-images/blob/master/bin/cedar.sh).
 
+## Language Stacks
+
 This stack is designed to be the foundation of a language-stack image for centos.
+
+- [ruby](https://github.com/tcnksm/dockerfile-centos-ruby)
+- [rails](https://github.com/tcnksm/dockerfile-centos-rails)
+- [node](https://github.com/tcnksm/dockerfile-centos-node)
+- [java](https://github.com/tcnksm/dockerfile-centos-java)
 
 ## Supported tags
 
