@@ -19,6 +19,7 @@ This stack is designed to be the foundation of a language-stack image for centOS
 - [node](https://github.com/tcnksm/dockerfile-centos-node)
 - [java](https://github.com/tcnksm/dockerfile-centos-java)
 - [python](https://github.com/mbaltrusitis/dockerfile-centos-python)
+- [scala](https://github.com/mbaltrusitis/dockerfile-centos-scala)
 
 ## Supported tags
 
