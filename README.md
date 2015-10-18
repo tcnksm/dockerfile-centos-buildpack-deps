@@ -11,7 +11,7 @@ This Dockerfile is ported from Debian's [buildpack-deps](https://github.com/dock
 
 ## Language Stacks
 
-This stack is designed to be the foundation of a language-stack image for centOS.
+This stack is designed to be the foundation of a language-stack image for CentOS.
 
 - [ruby](https://github.com/tcnksm/dockerfile-centos-ruby)
 - [rails](https://github.com/tcnksm/dockerfile-centos-rails)
@@ -23,13 +23,13 @@ This stack is designed to be the foundation of a language-stack image for centOS
 
 ## Supported tags
 
-`tcnksm/centos-buildpack-deps` image supports below tags. Each link is its `Dockerfile`.
+`tcnksm/centos-buildpack-deps` image supports the below tags. Each link is its `Dockerfile`:
 
 - [`latest`,`7` (7/Dockerfile)](https://github.com/tcnksm/dockerfile-centos-buildpack-deps/blob/master/7/Dockerfile)
 - [`6` (6/Dockerfile)](https://github.com/tcnksm/dockerfile-centos-buildpack-deps/blob/master/6/Dockerfile)
 - [`5` (5/Dockerfile)](https://github.com/tcnksm/dockerfile-centos-buildpack-deps/blob/master/5/Dockerfile)
 
-Tag corresponds to the base CentOS version.
+Tags correspond to the base CentOS version.
 
 ## Author
 
