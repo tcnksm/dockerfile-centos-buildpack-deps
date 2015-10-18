@@ -7,27 +7,29 @@ Dockerfile for CentOS buildpack-deps.
 
 ## Description
 
-This Dockerfile is ported from debian's [buildpack-deps](https://github.com/docker-library/buildpack-deps) to [CentOS](http://www.centos.org/). `buildpack-deps` is similar to [Heroku's stack images](https://github.com/heroku/stack-images/blob/master/bin/cedar.sh).
+This Dockerfile is ported from Debian's [buildpack-deps](https://github.com/docker-library/buildpack-deps) to [CentOS](http://www.centos.org/). `buildpack-deps` is similar to [Heroku's stack images](https://github.com/heroku/stack-images/blob/master/bin/cedar.sh).
 
 ## Language Stacks
 
-This stack is designed to be the foundation of a language-stack image for centos.
+This stack is designed to be the foundation of a language-stack image for CentOS.
 
 - [ruby](https://github.com/tcnksm/dockerfile-centos-ruby)
 - [rails](https://github.com/tcnksm/dockerfile-centos-rails)
 - [perl](https://github.com/tcnksm/dockerfile-centos-perl)
 - [node](https://github.com/tcnksm/dockerfile-centos-node)
 - [java](https://github.com/tcnksm/dockerfile-centos-java)
+- [python](https://github.com/mbaltrusitis/dockerfile-centos-python)
+- [scala](https://github.com/mbaltrusitis/dockerfile-centos-scala)
 
 ## Supported tags
 
-`tcnksm/centos-buildpack-deps` image supports below tags. Link is its `Dockerfile`.
+`tcnksm/centos-buildpack-deps` image supports the below tags. Each link is its `Dockerfile`:
 
 - [`latest`,`7` (7/Dockerfile)](https://github.com/tcnksm/dockerfile-centos-buildpack-deps/blob/master/7/Dockerfile)
 - [`6` (6/Dockerfile)](https://github.com/tcnksm/dockerfile-centos-buildpack-deps/blob/master/6/Dockerfile)
 - [`5` (5/Dockerfile)](https://github.com/tcnksm/dockerfile-centos-buildpack-deps/blob/master/5/Dockerfile)
 
-Tag is correspond to base CentOS version.
+Tags correspond to the base CentOS version.
 
 ## Author
 

@@ -24,6 +24,7 @@ RUN yum -y update && yum -y groupinstall 'Development Tools' && yum -y install \
     libxslt-devel \
     zlib-devel \
     libyaml-devel \
+    wget \
     && yum clean all
 
 RUN yum -y update && yum install -y \
